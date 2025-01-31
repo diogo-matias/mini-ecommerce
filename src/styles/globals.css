@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* --background: #FCF5EB; */
+  --background: #ffffff;
+  --foreground: #171717;
+  --primary: #1e606d;
+  --secondary: #fb7489
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ffffff;
+    --foreground: #171717;
+  }
+} */
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: -0.1rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  letter-spacing: -0.05rem;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 1.2rem;
+  letter-spacing: -0.05rem;
+  font-weight: 400;
+}
